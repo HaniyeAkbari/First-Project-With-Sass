@@ -1,0 +1,35 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: belanosima;
+    text-transform: capitalize;
+    /* overflow-x: hidden; */
+    
+    
+    
+}
+
+@font-face {
+    font-family: belanosima;
+    src: url(fonts/Belanosima-Regular.ttf);
+}
+body{
+    background-color: #e7e7e7;
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+a:visited{
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
